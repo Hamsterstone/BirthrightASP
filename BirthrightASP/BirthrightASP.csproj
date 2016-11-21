@@ -177,10 +177,53 @@
     <Compile Include="Migrations\201611062128357_InitialModel.Designer.cs">
       <DependentUpon>201611062128357_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611141913358_AddRuler.cs" />
+    <Compile Include="Migrations\201611141913358_AddRuler.Designer.cs">
+      <DependentUpon>201611141913358_AddRuler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611141916289_AddRealm.cs" />
+    <Compile Include="Migrations\201611141916289_AddRealm.Designer.cs">
+      <DependentUpon>201611141916289_AddRealm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611141927417_AddProvinceAndTerrain.cs" />
+    <Compile Include="Migrations\201611141927417_AddProvinceAndTerrain.Designer.cs">
+      <DependentUpon>201611141927417_AddProvinceAndTerrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611142054219_RemoveCascadeDeleteConvention.cs" />
+    <Compile Include="Migrations\201611142054219_RemoveCascadeDeleteConvention.Designer.cs">
+      <DependentUpon>201611142054219_RemoveCascadeDeleteConvention.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611142056164_AddHoldingsAndHoldingTypes.cs" />
+    <Compile Include="Migrations\201611142056164_AddHoldingsAndHoldingTypes.Designer.cs">
+      <DependentUpon>201611142056164_AddHoldingsAndHoldingTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611142115508_AddUnitsAndUnitTypes.cs" />
+    <Compile Include="Migrations\201611142115508_AddUnitsAndUnitTypes.Designer.cs">
+      <DependentUpon>201611142115508_AddUnitsAndUnitTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611142126573_AddBorders.cs" />
+    <Compile Include="Migrations\201611142126573_AddBorders.Designer.cs">
+      <DependentUpon>201611142126573_AddBorders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611142205130_AddTradeRoutes.cs" />
+    <Compile Include="Migrations\201611142205130_AddTradeRoutes.Designer.cs">
+      <DependentUpon>201611142205130_AddTradeRoutes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Border.cs" />
+    <Compile Include="Models\Holding.cs" />
+    <Compile Include="Models\HoldingType.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Province.cs" />
+    <Compile Include="Models\Realm.cs" />
+    <Compile Include="Models\Ruler.cs" />
+    <Compile Include="Models\Terrain.cs" />
+    <Compile Include="Models\TradeRoute.cs" />
+    <Compile Include="Models\Unit.cs" />
+    <Compile Include="Models\UnitType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -241,6 +284,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Additional Resources\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -254,6 +298,30 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611062128357_InitialModel.resx">
       <DependentUpon>201611062128357_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611141913358_AddRuler.resx">
+      <DependentUpon>201611141913358_AddRuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611141916289_AddRealm.resx">
+      <DependentUpon>201611141916289_AddRealm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611141927417_AddProvinceAndTerrain.resx">
+      <DependentUpon>201611141927417_AddProvinceAndTerrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611142054219_RemoveCascadeDeleteConvention.resx">
+      <DependentUpon>201611142054219_RemoveCascadeDeleteConvention.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611142056164_AddHoldingsAndHoldingTypes.resx">
+      <DependentUpon>201611142056164_AddHoldingsAndHoldingTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611142115508_AddUnitsAndUnitTypes.resx">
+      <DependentUpon>201611142115508_AddUnitsAndUnitTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611142126573_AddBorders.resx">
+      <DependentUpon>201611142126573_AddBorders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611142205130_AddTradeRoutes.resx">
+      <DependentUpon>201611142205130_AddTradeRoutes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
