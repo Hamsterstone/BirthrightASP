@@ -286,6 +286,7 @@
   <ItemGroup>
     <Folder Include="Additional Resources\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\PtolemyJS\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
