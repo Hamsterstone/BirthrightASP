@@ -20,7 +20,7 @@ namespace BirthrightASP.Models
         public List<Terrain> SecondaryTerrain { get; set; }
         public Realm Realm { get; set; }
 
-        [Required]
+       // [Required]
         public int RealmId { get; set; }
 
         public string Loyalty { get; set; }

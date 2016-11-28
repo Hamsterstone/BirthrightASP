@@ -245,6 +245,18 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\PtolemyJS\app.js" />
+    <Content Include="Scripts\PtolemyJS\bower_components\Javascript-Voronoi\rhill-voronoi-core.min.js" />
+    <Content Include="Scripts\PtolemyJS\bower_components\noisejs\perlin.js" />
+    <Content Include="Scripts\PtolemyJS\bower_components\raphael-pan-zoom\src\raphael.pan-zoom.min.js" />
+    <Content Include="Scripts\PtolemyJS\bower_components\raphael\raphael-min.js" />
+    <Content Include="Scripts\PtolemyJS\index.html" />
+    <Content Include="Scripts\PtolemyJS\node_modules\requirejs\require.js" />
+    <Content Include="Scripts\PtolemyJS\ptolemy\app.js" />
+    <Content Include="Scripts\PtolemyJS\ptolemy\Cell.js" />
+    <Content Include="Scripts\PtolemyJS\ptolemy\plugins\Ptolemy.worldgeneration.js" />
+    <Content Include="Scripts\PtolemyJS\ptolemy\Ptolemy.js" />
+    <Content Include="Scripts\PtolemyJS\ptolemy\util\util.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
@@ -282,11 +294,15 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Scripts\PtolemyJS\anotherMap.json" />
+    <Content Include="Scripts\PtolemyJS\exampleMap.json" />
+    <Content Include="Scripts\PtolemyJS\fourCellTest.json" />
+    <Content Include="Scripts\PtolemyJS\oneCell.json" />
+    <Content Include="Scripts\PtolemyJS\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Additional Resources\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\PtolemyJS\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

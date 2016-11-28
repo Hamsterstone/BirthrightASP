@@ -26,6 +26,11 @@ namespace BirthrightASP
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/bundles/PtolemyJS").IncludeDirectory(
+                "~/Scripts/PtolemyJS","*.js",searchSubdirectories:true));
+
+//                < script data - main = "ptolemy/app" src = "//Scripts/" ></ script >
+
         }
     }
 }
