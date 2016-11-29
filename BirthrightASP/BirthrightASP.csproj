@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201611142205130_AddTradeRoutes.Designer.cs">
       <DependentUpon>201611142205130_AddTradeRoutes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611290054421_AddProvinceMapId.cs" />
+    <Compile Include="Migrations\201611290054421_AddProvinceMapId.Designer.cs">
+      <DependentUpon>201611290054421_AddProvinceMapId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -218,6 +222,7 @@
     <Compile Include="Models\HoldingType.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Province.cs" />
+    <Compile Include="Models\ProvinceMapId.cs" />
     <Compile Include="Models\Realm.cs" />
     <Compile Include="Models\Ruler.cs" />
     <Compile Include="Models\Terrain.cs" />
@@ -341,6 +346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611142205130_AddTradeRoutes.resx">
       <DependentUpon>201611142205130_AddTradeRoutes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611290054421_AddProvinceMapId.resx">
+      <DependentUpon>201611290054421_AddProvinceMapId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -17,7 +17,7 @@ namespace BirthrightASP.Models
         public DbSet<UnitType> UnitTypes { get; set; }
         public DbSet<Border> Borders { get; set; }
         public DbSet<TradeRoute> TradeRoutes { get; set; }
-
+        public DbSet<ProvinceMapId> ProvinceMapIds { get; set; }
 
         
         public ApplicationDbContext()
