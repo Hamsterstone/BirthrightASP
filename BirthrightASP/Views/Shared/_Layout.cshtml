@@ -36,9 +36,11 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-
+    <script src='@Url.Content("Scripts/require.js")' data-main='Scripts/PtolemyJS/ptolemy/app'></script>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    
+  @*  language=javascript*@
 </body>
 </html>

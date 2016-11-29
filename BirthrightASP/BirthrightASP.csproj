@@ -245,7 +245,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\PtolemyJS\app.js" />
+    <Content Include="Scripts\PtolemyJS\oldapp.js" />
     <Content Include="Scripts\PtolemyJS\bower_components\Javascript-Voronoi\rhill-voronoi-core.min.js" />
     <Content Include="Scripts\PtolemyJS\bower_components\noisejs\perlin.js" />
     <Content Include="Scripts\PtolemyJS\bower_components\raphael-pan-zoom\src\raphael.pan-zoom.min.js" />
@@ -257,6 +257,8 @@
     <Content Include="Scripts\PtolemyJS\ptolemy\plugins\Ptolemy.worldgeneration.js" />
     <Content Include="Scripts\PtolemyJS\ptolemy\Ptolemy.js" />
     <Content Include="Scripts\PtolemyJS\ptolemy\util\util.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
